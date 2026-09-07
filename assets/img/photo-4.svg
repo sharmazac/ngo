@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Photograph placeholder">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#909090"/>
+      <stop offset="1" stop-color="#4a4a4a"/>
+    </linearGradient>
+    <pattern id="n" width="6" height="6" patternUnits="userSpaceOnUse">
+      <rect width="6" height="6" fill="none"/>
+      <circle cx="1" cy="1" r="0.7" fill="#fff" opacity="0.05"/>
+      <circle cx="4" cy="3" r="0.7" fill="#000" opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="url(#g)"/>
+  <rect width="800" height="600" fill="url(#n)"/>
+  <g transform="translate(400.0 300.0)" fill="none" stroke="#fff" stroke-opacity="0.5"
+     stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="-30" y="-24" width="60" height="48" rx="4"/>
+    <circle cx="-12" cy="-7" r="5.5"/>
+    <path d="M-30 14l19-17 14 12 9-8 18 15"/>
+  </g>
+  <text x="400.0" y="352.0" text-anchor="middle" font-family="system-ui, sans-serif"
+        font-size="13" letter-spacing="2" fill="#fff" fill-opacity="0.55">PHOTO 800×600</text>
+</svg>
